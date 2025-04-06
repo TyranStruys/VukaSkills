@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VukaSkils - Empowering South African Youth</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        .feature {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .feature h3 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            padding: 12px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2c3e50;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VukaSkills</h1>
+        <p>Revolutionizing Employment for South African Youth</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to VukaSkills</h2>
+        <p>With a 43% youth unemployment rate in South Africa, VukaSkills steps in with gamified training and job matching to empower 18-30-year-olds. Join us in building a brighter future!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We’re a startup applying to the Oppenheimer Startup Club SA, driven by a mission to reduce unemployment through innovative technology. VukaSkills combines skills development with opportunity, targeting South Africa’s youth.</p>
+    </section>
+
+    <section id="features">
+        <h2>Our Features</h2>
+        <div class="feature">
+            <h3>RIASEC Profiling</h3>
+            <p>Take our Holland RIASEC quiz to find your fit—Realistic, Investigative, Artistic, Social, Enterprising, or Conventional—and unlock personalized career paths.</p>
+        </div>
+        <div class="feature">
+            <h3>Fishbone Fixer</h3>
+            <p>Master the Fishbone Diagram in our gamified module to solve workplace challenges, earning a Problem-Solver Badge that boosts your credentials.</p>
+        </div>
+        <div class="feature">
+            <h3>Job Matching</h3>
+            <p>Get connected to jobs tailored to your RIASEC profile, with virtual mentorship to guide you every step of the way.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form action=https://formspree.io/f/mblgplpw method="post"
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="margin-top: 20px;">Follow us on X: @StruysTyran | Email: tyranvds@icloud.com</p>
+        <p>Support our Oppenheimer Startup Club SA application!</p>
+    </section>
+
+    <footer>
+        <p>© 2025 VukaSkills. All rights reserved.</p>
+    </footer>
+</body>
+</html>
